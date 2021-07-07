@@ -1,1 +1,4 @@
-<h1>Hello Django</h1>
+{% for mail in mails.all %}
+    <h1>{{mail.title}}</h1>
+    <p>{{mail.summary}}<a href="{% url 'detail' mail.id %}">...더 보기</a></p>
+{%endfor%}

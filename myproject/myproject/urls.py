@@ -20,4 +20,5 @@ import myapp.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', myapp.views.home, name='home'),
+    path('mail/<int:mail_id>', myapp.views.detail, name='detail')
 ]

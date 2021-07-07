@@ -46,6 +46,7 @@ python manage.py startapp 앱 이름
 # Django DB
 model이란 django가 데이터베이스를 관리하게 해주고 admin은 model을 관리하는 역할
 
+#### models.py
 <pre>
 <code>
 class Mail(models.Model):                        #models.Model 장고 모델임을 나타냄

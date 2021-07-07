@@ -56,13 +56,12 @@ class Mail(models.Model):                        #models.Model 장고 모델임�
 </pre>
 - 처리할 데이터의 종류를 class를 활용하여 등록. 각 내용은 class의 인스턴스
 
-</br>
 
 ## python manage.py makemigrations
 django와 데이터베이스가 소통할 수 있도록 마이그레이션을 생성
 ## python manage.py migrate
 마이그레이션을 적용
-#### 모델 변경 시 위의 두 과정을 실행
+#### - 모델 변경 시 위의 두 과정을 실행
 </br>
 
 ## 쿼리셋(QuerySet)
